@@ -1,0 +1,12 @@
+image: node:14
+
+pipelines:
+  default:
+      - step:
+          name: Build and Lint
+          caches:
+            - node
+          script:
+            - npm install --global
+            - npm run lint
+            - npm run build:prod

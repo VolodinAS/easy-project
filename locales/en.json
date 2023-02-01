@@ -1,0 +1,129 @@
+{
+    "easy-project.signin.titleSignIn": "Login to your account",
+    "easy-project.signin.submitText": "login",
+    "easy-project.signin.labelTextEmail": "Email",
+    "easy-project.signin.labelPlaceholderEmail": "email...",
+    "easy-project.signin.labelTextPassword": "Password",
+    "easy-project.signin.labelPlaceholderPassword": "Password...",
+    "easy-project.signin.error": "Email or password is incorrect",    
+    "easy-project.signin.error-required": "Required",
+    "easy-project.signin.error-email": "Incorrect Email",
+    "easy-project.signin.registerText": "No account?",
+    "easy-project.signin.registerTextLink": "Register",
+    "easy-project.signin.forgotPassword": "Forgot password?",
+
+    "easy-project.signup.submitTextLogin": "Login",
+    "easy-project.signup.labelTextName": "Name Secondname",
+    "easy-project.signup.title": "Create your account",
+    "easy-project.signup.labelPlaceholderLogin": "Enter login...",
+    "easy-project.signup.labelPlaceholderName": "Name Secondname...",
+    "easy-project.signup.submitText": "Join",
+    "easy-project.signup.signin.text": "Have account?",
+    "easy-project.signup.signin.link-text": " Login",
+
+    "easy-project.signup.error-repeat-email": "Email already exists!",
+    "easy-project.signup.error-repeat-login": "Login already exists!",
+
+    "easy-project.landing.buttons.startProject.product": "Create first project",
+    "easy-project.landing.buttons.startProject.intro": "Start to control project",
+    "easy-project.landing.buttons.startProject.uniq": "Get to work",
+
+    "easy-project.landing.header.product": "Product",
+    "easy-project.landing.header.intro": "Intros",
+    "easy-project.landing.header.benefits": "Benefits",
+    "easy-project.landing.header.uniq": "Uniqs",
+
+    "easy-project.landing.product.mainText": "Integrated job management software",
+    "easy-project.landing.product.subText": "Easy Project software is designed to manage work, streamline projects, simplify pricing, automate invoicing and streamline project management.",
+
+    "easy-project.landing.intro.mainText": "Ready to change the way you work?",
+    "easy-project.landing.intro.subText": "You don't need dozens of apps to get things done. Find out how moving to Easy Project will allow you to manage every aspect of your business.",
+
+    "easy-project.landing.benefits.mainText": "Benefits of Easy Project",
+
+    "easy-project.landing.uniq.mainText": "What makes Easy Project unique?",
+    "easy-project.landing.uniq.subText": "Here is a colorful general description of the project",
+
+    "easy-project.landing.footer.rights": "All rights reserved",
+
+    "easy-project.dashboard.quitBtn": "Logout",
+    "easy-project.dashboard.saveBtn": "Save",
+    "easy-project.dashboard.newProjectBtn": "New project",
+    "easy-project.dashboard.all.pageName": "Dashboard",
+    "easy-project.dashboard.newProject.pageName": "New project",
+    "easy-project.dashboard.newProject.form.field.title": "Name of project",
+    "easy-project.dashboard.newProject.form.error.empty": "The field must not be empty",
+    "easy-project.dashboard.newProject.form.placeholder.title": "Type name of project...",
+    "easy-project.dashboard.newProject.form.field.code": "Code of project",
+    "easy-project.dashboard.newProject.form.field.members": "Members of project",
+    "easy-project.dashboard.newProject.form.placeholder.code": "Type code of project...",
+    "easy-project.dashboard.newProject.form.placeholder.members": "Start type of member's name or email...",
+    "easy-project.dashboard.editProject.pageName": "Edit project - {{projectName}}",
+
+    "easy-project.dashboard.projectList.buttonTasks": "Taskslist",
+    "easy-project.dashboard.projectList.buttonEdit": "Edit",
+    "easy-project.dashboard.projectList.buttonDelete": "Delete",
+    "easy-project.dashboard.projectList.buttonAddTask": "Create new task",
+
+    "easy-project.dashboard.project.accessDenied": "You do not have access to this project or the project does not exist!",
+    "easy-project.dashboard.project.empty": "You don't have any active projects yet! Click «New Project» to create a project...",
+    "easy-project.dashboard.project.title": "{{title}} ({{amount}})",
+    "easy-project.dashboard.project.tasks.breadcrumbs": "Tasks of \"{{projectName}}\"",
+    "easy-project.dashboard.project.task.breadcrumbs": "Task \"{{projectCode}}-{{taskCode}}\"",
+    "easy-project.dashboard.project.taskEdit.breadcrumbs": "Edit task \"{{projectCode}}-{{taskCode}}\"",
+
+    "easy-project.dashboard.project.newTask.breadcrumbs": "New task",
+
+    "easy-project.dashboard.project.taskEdit.form.title.field": "Name of task",
+    "easy-project.dashboard.project.taskEdit.form.title.placeholder": "Type name of task...",
+
+    "easy-project.dashboard.project.taskEdit.form.decriprion.field": "Description of task",
+    "easy-project.dashboard.project.taskEdit.form.decriprion.placeholder": "Type description of task...",
+
+    "easy-project.dashboard.project.taskEdit.form.type.field": "Type of task",
+    "easy-project.dashboard.project.taskEdit.form.type.placeholder": "Choose type of task",
+
+    "easy-project.dashboard.project.taskEdit.form.status.field": "Status of task",
+    "easy-project.dashboard.project.taskEdit.form.status.placeholder": "Choose status of task",
+
+    "easy-project.dashboard.project.taskEdit.form.executor.field": "Choose executor of task",
+    "easy-project.dashboard.project.taskEdit.form.executor.placeholder": "Start type of member's name or email...",
+
+    "easy-project.dashboard.project.task.header": "Task {{projectCode}}-{{taskId}}",
+    "easy-project.dashboard.project.task.buttonEdit": "Edit",
+    "easy-project.dashboard.project.task.created": "Created:",
+    "easy-project.dashboard.project.task.unknown.executor": "not assigned",
+    "easy-project.dashboard.project.task.unknown.author": "not specified",
+
+    "easy-project.dashboard.project.info.author": "Author: {{projectAuthor}}",
+    "easy-project.dashboard.project.info.created": "Created: {{projectCreated}}",
+    "easy-project.dashboard.project.info.changed": "Changed: {{projectChanged}}",
+
+    "easy-project.dashboard.project.task.info.status": "Status:",
+    "easy-project.dashboard.project.task.info.author": "Author:",
+    "easy-project.dashboard.project.task.info.changed": "Updated:",
+    "easy-project.dashboard.project.task.info.executor": "Executor:",
+    "easy-project.dashboard.project.task.info.description": "Description:",
+
+    "easy-project.overlay.buttonClose": "Close",
+    "easy-project.overlay.confirm": "Yes",
+    "easy-project.overlay.cancel": "No",
+
+    "easy-project.overlay.confirm.delete.project": "Are you sure you want to delete this project?",
+    "easy-project.overlay.confirm.delete.task": "Are you sure you want to delete the task «{{taskTitle}}»?",
+
+    "easy-project.error.common": "An unexpected error occurred on the server!",
+    "easy-project.error.notfound": "Sorry! Page not found",
+    "easy-project.error.newproject": "An error occurred while creating the project...",
+    "easy-project.error.saveproject": "An error occurred while saving the project...",
+
+    "easy-project.success.newproject": "The project is created successfully!",
+    "easy-project.success.saveproject": "The project is saved successfully!",
+
+    "easy-project.header.title.landing": "Welcome!",
+    "easy-project.header.title.signin": "Sign in",
+    "easy-project.header.title.signup": "Sign up",
+    "easy-project.header.title.dashboard": "Dashboard",
+
+    "": ""
+}

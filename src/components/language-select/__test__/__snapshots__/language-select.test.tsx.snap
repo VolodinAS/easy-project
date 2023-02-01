@@ -1,0 +1,52 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`language-select button click 1`] = `
+<body>
+  <div>
+    <button
+      class="css-1640pth"
+      title="language select"
+      value="ru"
+    >
+      <img
+        class="css-zlc08d"
+        src="test-file-stub"
+      />
+    </button>
+  </div>
+</body>
+`;
+
+exports[`language-select button click 2`] = `
+<body>
+  <div>
+    <button
+      class="css-1640pth"
+      title="language select"
+      value="en"
+    >
+      <img
+        class="css-zlc08d"
+        src="test-file-stub"
+      />
+    </button>
+  </div>
+</body>
+`;
+
+exports[`language-select button click 3`] = `
+<body>
+  <div>
+    <button
+      class="css-1640pth"
+      title="language select"
+      value="ru"
+    >
+      <img
+        class="css-zlc08d"
+        src="test-file-stub"
+      />
+    </button>
+  </div>
+</body>
+`;

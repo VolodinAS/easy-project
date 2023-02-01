@@ -1,0 +1,23 @@
+{
+    "data": {
+        "id": "2",
+        "title": "My second project",
+        "author": {
+            "id": "iseridcvrewefwr231323123123d",
+            "login": "testUser",
+            "email": "test@test.ru",
+            "fio": "Lastname Firstname"
+        },
+        "changed": 1650386996612,
+        "created": 1650376996612,
+        "members": [
+            {
+                "id": "efokefoe",
+                "login": "nontestUser",
+                "email": "nontestUser@test.ru",
+                "fio": "Lastname2 Firstname2"
+            }
+        ],
+        "code": "MSP"
+    }
+}

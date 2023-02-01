@@ -1,0 +1,510 @@
+{
+	"info": {
+		"_postman_id": "05ba46d1-9d28-4dbc-8704-6ad1c43c9195",
+		"name": "easy-project",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Мультистаб",
+			"item": [
+				{
+					"name": "Аутентификация",
+					"item": [
+						{
+							"name": "Регистрация",
+							"request": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n    \"login\" : \"test19\",\r\n    \"fio\" : \"Test Testovich\",\r\n    \"email\" : \"test19@test.ru\",\r\n    \"password\" : \"Password123\"\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "http://{{host}}/easy-project/auth/registration",
+									"protocol": "http",
+									"host": [
+										"{{host}}"
+									],
+									"path": [
+										"easy-project",
+										"auth",
+										"registration"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "Авторизация",
+							"request": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n    \"email\" : \"alex_vovkin@mail.ru\",\r\n    \"password\" : \"12121992\"\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "{{multystub}}/auth/sign-in",
+									"host": [
+										"{{multystub}}"
+									],
+									"path": [
+										"auth",
+										"sign-in"
+									]
+								}
+							},
+							"response": []
+						}
+					]
+				},
+				{
+					"name": "Проект",
+					"item": [
+						{
+							"name": "Список",
+							"request": {
+								"auth": {
+									"type": "bearer",
+									"bearer": [
+										{
+											"key": "token",
+											"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYyNzhmZDg3ODlkODM1MmJkMDk1MTM0YiIsImlhdCI6MTY1MjA5NjQ1Nn0.qYq3U-FFB8_0zOWcEryiKDF6KoQ-Ra7D1r15lfwTnS8",
+											"type": "string"
+										}
+									]
+								},
+								"method": "POST",
+								"header": [],
+								"url": {
+									"raw": "http://{{host}}/easy-project/projects",
+									"protocol": "http",
+									"host": [
+										"{{host}}"
+									],
+									"path": [
+										"easy-project",
+										"projects"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "Создать",
+							"request": {
+								"auth": {
+									"type": "bearer",
+									"bearer": [
+										{
+											"key": "token",
+											"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYyNzhmZDg3ODlkODM1MmJkMDk1MTM0YiIsImlhdCI6MTY1MjUyNjc2Mn0.9h4a_VkQZqPwc0XwQyj13JlGX3Sx7skjMu8lzNYZRlM",
+											"type": "string"
+										}
+									]
+								},
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n    \"projectName\": \"Инициируемый проект\",\r\n    \"projectCode\": \"IP\"\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "http://{{host}}/easy-project/projects/new-project",
+									"protocol": "http",
+									"host": [
+										"{{host}}"
+									],
+									"path": [
+										"easy-project",
+										"projects",
+										"new-project"
+									]
+								}
+							},
+							"response": []
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "localhost",
+			"item": [
+				{
+					"name": "Аутентификация",
+					"item": [
+						{
+							"name": "hc.registration",
+							"protocolProfileBehavior": {
+								"disableBodyPruning": true
+							},
+							"request": {
+								"method": "GET",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n    \"login\" : \"test19\",\r\n    \"fio\" : \"Test Testovich\",\r\n    \"email\" : \"test19@test.ru\",\r\n    \"password\" : \"Password123\"\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "http://{{host}}/easy-project/auth/healthcheck",
+									"protocol": "http",
+									"host": [
+										"{{host}}"
+									],
+									"path": [
+										"easy-project",
+										"auth",
+										"healthcheck"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "Авторизация",
+							"request": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n    \"login\" : \"test19\",\r\n    \"fio\" : \"Test Testovich\",\r\n    \"email\" : \"test19@test.ru\",\r\n    \"password\" : \"Password123\"\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "http://{{host}}/easy-project/auth/registration",
+									"protocol": "http",
+									"host": [
+										"{{host}}"
+									],
+									"path": [
+										"easy-project",
+										"auth",
+										"registration"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "Регистрация",
+							"request": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n    \"login\" : \"test19\",\r\n    \"fio\" : \"Test Testovich\",\r\n    \"email\" : \"test19@test.ru\",\r\n    \"password\" : \"Password123\"\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "http://{{host}}/easy-project/auth/registration",
+									"protocol": "http",
+									"host": [
+										"{{host}}"
+									],
+									"path": [
+										"easy-project",
+										"auth",
+										"registration"
+									]
+								}
+							},
+							"response": []
+						}
+					]
+				},
+				{
+					"name": "Проект",
+					"item": [
+						{
+							"name": "hc.my-projects",
+							"protocolProfileBehavior": {
+								"disableBodyPruning": true
+							},
+							"request": {
+								"method": "GET",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n    \"userId\": \"123\"\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "http://{{host}}/easy-project/projects/healthcheck",
+									"protocol": "http",
+									"host": [
+										"{{host}}"
+									],
+									"path": [
+										"easy-project",
+										"projects",
+										"healthcheck"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "Список",
+							"request": {
+								"auth": {
+									"type": "bearer",
+									"bearer": [
+										{
+											"key": "token",
+											"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYyNzhmZDg3ODlkODM1MmJkMDk1MTM0YiIsImlhdCI6MTY1MjA5NjQ1Nn0.qYq3U-FFB8_0zOWcEryiKDF6KoQ-Ra7D1r15lfwTnS8",
+											"type": "string"
+										}
+									]
+								},
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "http://{{host}}/easy-project/projects",
+									"protocol": "http",
+									"host": [
+										"{{host}}"
+									],
+									"path": [
+										"easy-project",
+										"projects"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "Создать",
+							"request": {
+								"auth": {
+									"type": "bearer",
+									"bearer": [
+										{
+											"key": "token",
+											"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYyNzhmZDg3ODlkODM1MmJkMDk1MTM0YiIsImlhdCI6MTY1MjUyNjc2Mn0.9h4a_VkQZqPwc0XwQyj13JlGX3Sx7skjMu8lzNYZRlM",
+											"type": "string"
+										}
+									]
+								},
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n    \"projectName\": \"Инициируемый проект\",\r\n    \"projectCode\": \"IP\"\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "http://{{host}}/easy-project/projects/new",
+									"protocol": "http",
+									"host": [
+										"{{host}}"
+									],
+									"path": [
+										"easy-project",
+										"projects",
+										"new"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "Редактировать",
+							"request": {
+								"auth": {
+									"type": "bearer",
+									"bearer": [
+										{
+											"key": "token",
+											"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYyNzhmZDg3ODlkODM1MmJkMDk1MTM0YiIsImlhdCI6MTY1MjUyNjc2Mn0.9h4a_VkQZqPwc0XwQyj13JlGX3Sx7skjMu8lzNYZRlM",
+											"type": "string"
+										}
+									]
+								},
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n    \"projectId\": \"627faccb67fd10364839e07c\",\r\n    \"projectName\": \"новое имя проекта\",\r\n    \"projectCode\": \"NNP\"\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "http://{{host}}/easy-project/projects/edit",
+									"protocol": "http",
+									"host": [
+										"{{host}}"
+									],
+									"path": [
+										"easy-project",
+										"projects",
+										"edit"
+									]
+								}
+							},
+							"response": []
+						}
+					]
+				},
+				{
+					"name": "Задачи",
+					"item": [
+						{
+							"name": "Список",
+							"request": {
+								"auth": {
+									"type": "bearer",
+									"bearer": [
+										{
+											"key": "token",
+											"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYyNzhmZDg3ODlkODM1MmJkMDk1MTM0YiIsImlhdCI6MTY1MjUyNjc2Mn0.9h4a_VkQZqPwc0XwQyj13JlGX3Sx7skjMu8lzNYZRlM",
+											"type": "string"
+										}
+									]
+								},
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "http://{{host}}/easy-project/tasks?projectId=627fa962c804cf3d40c84bf7",
+									"protocol": "http",
+									"host": [
+										"{{host}}"
+									],
+									"path": [
+										"easy-project",
+										"tasks"
+									],
+									"query": [
+										{
+											"key": "projectId",
+											"value": "627fa962c804cf3d40c84bf7"
+										}
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "Создать",
+							"request": {
+								"auth": {
+									"type": "bearer",
+									"bearer": [
+										{
+											"key": "token",
+											"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYyNzhmZDg3ODlkODM1MmJkMDk1MTM0YiIsImlhdCI6MTY1MjA5NjQ1Nn0.qYq3U-FFB8_0zOWcEryiKDF6KoQ-Ra7D1r15lfwTnS8",
+											"type": "string"
+										}
+									]
+								},
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n    \"title\": \"Добавить третью задачу\",\r\n    \"decription\": \"Третья задача\",\r\n    \"type\": 3,\r\n    \"status\": 3,\r\n    \"projectId\": \"627f9cd40dbba53cb08db5bc\"\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "http://{{host}}/easy-project/tasks/create",
+									"protocol": "http",
+									"host": [
+										"{{host}}"
+									],
+									"path": [
+										"easy-project",
+										"tasks",
+										"create"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "Редактировать",
+							"request": {
+								"auth": {
+									"type": "bearer",
+									"bearer": [
+										{
+											"key": "token",
+											"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYyNzhmZDg3ODlkODM1MmJkMDk1MTM0YiIsImlhdCI6MTY1MjA5NjQ1Nn0.qYq3U-FFB8_0zOWcEryiKDF6KoQ-Ra7D1r15lfwTnS8",
+											"type": "string"
+										}
+									]
+								},
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n    \"title\": \"редактирование задачи2213211\",\r\n    \"decription\": \"измененное описание21231231\",\r\n    \"type\": 2,\r\n    \"status\": 2,\r\n    \"projectId\": \"627faccb67fd10364839e07c\",\r\n    \"taskId\": \"627fad4067fd10364839e07d\"\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "http://{{host}}/easy-project/tasks/edit",
+									"protocol": "http",
+									"host": [
+										"{{host}}"
+									],
+									"path": [
+										"easy-project",
+										"tasks",
+										"edit"
+									]
+								}
+							},
+							"response": []
+						}
+					]
+				}
+			]
+		}
+	]
+}

@@ -1,0 +1,25 @@
+{
+    "data": 
+    {
+        "id": 1,
+        "title": "Задача с описанием",
+        "changed": 1650386997000,
+        "created": 1650385997000,
+        "description": "сверстать боковое меню с учетом description",
+        "author": {
+            "id": "iseridcvrewefwr231323123123d",
+            "login": "testUser",
+            "email": "test@test.ru",
+            "fio": "Lastname Firstname"
+        },
+        "type": 1,
+        "executor": {
+            "id": "iseridcvrewefwr231323123123d",
+            "login": "testUser",
+            "email": "test@test.ru",
+            "fio": "Lastname Firstname"
+        },
+        "taskIndex": 1,
+        "status": 1
+    }
+}

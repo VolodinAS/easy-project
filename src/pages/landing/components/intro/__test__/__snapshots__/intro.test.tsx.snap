@@ -1,0 +1,54 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`intro video link enable 1`] = `
+<body>
+  <div>
+    <div
+      class="css-5j6wn1"
+      id="intro"
+    >
+      <div
+        class="css-1v38hm"
+      >
+        <h1
+          class="css-1s264hv"
+        >
+          Готовы изменить то, как вы работаете?
+        </h1>
+      </div>
+      <div
+        class="css-12c6vpr"
+      >
+        <p
+          class="css-1l5tvrx"
+        >
+          Вам не нужны десятки приложений, чтобы добиться цели. Узнайте, как переход на Easy Project позволит вам управлять всеми аспектами вашего бизнеса.
+        </p>
+      </div>
+      <div
+        class="css-18gglrl"
+      >
+        <iframe
+          class="css-k3igyc"
+          src="video-link"
+        />
+      </div>
+      <a
+        class="css-11g9kr1"
+        href="/easy-project/registration"
+        title="Регистрация"
+      >
+        <button
+          class="css-1haqyjf"
+        >
+          <div
+            class="css-1o6ajog"
+          >
+            Начать управление проектами
+          </div>
+        </button>
+      </a>
+    </div>
+  </div>
+</body>
+`;

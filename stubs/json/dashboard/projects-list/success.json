@@ -1,0 +1,68 @@
+{
+	"success": true,
+	"data": [
+		{
+			"id": "1",
+			"title": "Hello, world! [для стенда, не нажимать]",
+			"author": {
+				"id": "iseridcvrewefwr231323123123d",
+				"login": "testUser",
+				"email": "test@test.ru",
+				"fio": "Lastname Firstname"
+			},
+			"changed": 1650386996612,
+			"created": 1650376996612,
+			"members": [
+				{
+					"id": "efokefoe",
+					"login": "nontestUser",
+					"email": "nontestUser@test.ru",
+					"fio": "Lastname2 Firstname2"
+				}
+			],
+			"code": "HW"
+		},
+		{
+			"id": "2",
+			"title": "My second project [можно нажимать]",
+			"author": {
+				"id": "iseridcvrewefwr231323123123d",
+				"login": "testUser",
+				"email": "test@test.ru",
+				"fio": "Lastname Firstname"
+			},
+			"changed": 1650386900000,
+			"created": 1650386900000,
+			"members": [
+				{
+					"id": "efokefoe",
+					"login": "nontestUser",
+					"email": "nontestUser@test.ru",
+					"fio": "Lastname2 Firstname2"
+				}
+			],
+			"code": "MSP"
+		},
+		{
+			"id": "3",
+			"title": "Final project [для стенда, не нажимать]",
+			"author": {
+				"id": "iseridcvrewefwr231323123123d",
+				"login": "testUser",
+				"email": "test@test.ru",
+				"fio": "Lastname Firstname"
+			},
+			"changed": 1650386996612,
+			"created": 1650386996612,
+			"members": [
+				{
+					"id": "efokefoe",
+					"login": "nontestUser",
+					"email": "nontestUser@test.ru",
+					"fio": "Lastname2 Firstname2"
+				}
+			],
+			"code": "FP"
+		}
+	]
+}

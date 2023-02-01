@@ -1,0 +1,781 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`test Edit task check Dashboard 1`] = `
+<input
+  class="css-d17r1a"
+  name="title"
+  placeholder="Введите название задачи..."
+  type="text"
+  value="Задача с описанием"
+/>
+`;
+
+exports[`test Edit task check Dashboard 2`] = `
+<div>
+  <div
+    class="css-1boxdi0"
+  >
+    <div
+      class="css-aoi44d"
+    >
+      <div
+        class="css-174g2o2"
+      >
+        <a
+          class="css-13lnaem"
+          href="/easy-project/dashboard"
+          title="Дашборд"
+        >
+          <div
+            class="css-1povu0j"
+          >
+            <div
+              class="css-4ucq2w"
+            >
+              <img
+                alt="Easy project logo"
+                src="test-file-stub"
+              />
+            </div>
+            <p
+              class="css-1vxbtp5"
+            >
+              <span>
+                easy
+              </span>
+              <span>
+                project
+              </span>
+            </p>
+          </div>
+        </a>
+        <nav
+          class="css-83k1q7"
+        >
+          <div
+            class="css-16uff1u"
+          >
+            <a
+              class="css-13xx20t"
+              href="/easy-project/dashboard"
+              title="Дашборд"
+            >
+              Дашборд
+            </a>
+            <div
+              class="css-rq7z01"
+            >
+              <img
+                alt="link separator"
+                src="test-file-stub"
+              />
+            </div>
+            <a
+              class="css-13xx20t"
+              href="/easy-project/dashboard/2"
+              title="Задачи проекта \\"undefined\\""
+            >
+              Задачи проекта "undefined"
+            </a>
+            <div
+              class="css-rq7z01"
+            >
+              <img
+                alt="link separator"
+                src="test-file-stub"
+              />
+            </div>
+            <span
+              class="css-1c4ingb"
+            >
+              Редактирование задачи "undefined-1"
+            </span>
+          </div>
+          <div
+            class="css-16uff1u"
+          >
+            <button
+              class="css-1640pth"
+              title="language select"
+              value="ru"
+            >
+              <img
+                class="css-zlc08d"
+                src="test-file-stub"
+              />
+            </button>
+            <div
+              class="css-746kv5"
+            />
+            <a
+              class="css-13xx20t"
+              href="/easy-project/dashboard"
+              title="Выход"
+            >
+              Выход
+            </a>
+          </div>
+        </nav>
+      </div>
+    </div>
+    <div
+      class="css-14f5air"
+    >
+      <main
+        class="css-mx63p3"
+      >
+        <div
+          class="css-44i7do"
+        >
+          <div
+            class="css-3l4y0u"
+          />
+          <h1
+            class="css-1s264hv"
+          >
+            Редактирование задачи "undefined-1"
+          </h1>
+        </div>
+        <form
+          class="css-du6bgd"
+          data-testid="task-form"
+        >
+          <div
+            class="css-u98tgc"
+          >
+            <label
+              class="css-12e7qyv"
+            >
+              <span
+                class="css-fxi74e"
+              >
+                Название задачи
+                 *
+              </span>
+              <input
+                class="css-d17r1a"
+                name="title"
+                placeholder="Введите название задачи..."
+                type="text"
+                value="Задача с описанием"
+              />
+            </label>
+            <label
+              class="css-12e7qyv"
+            >
+              <span
+                class="css-fxi74e"
+              >
+                Описание задачи
+              </span>
+              <textarea
+                class="css-zdst7a"
+                name="description"
+                placeholder="Введите описание задачи..."
+                rows="3"
+              >
+                сверстать боковое меню с учетом description
+              </textarea>
+            </label>
+            <label
+              class="css-12e7qyv"
+            >
+              <span
+                class="css-fxi74e"
+              >
+                Тип задачи
+                 *
+              </span>
+              <select
+                class="css-d17r1a"
+                name="type"
+              >
+                <option
+                  value=""
+                >
+                  Выберите тип задачи
+                </option>
+                <option
+                  value="1"
+                >
+                  task
+                </option>
+                <option
+                  value="2"
+                >
+                  feature
+                </option>
+                <option
+                  value="3"
+                >
+                  bug
+                </option>
+              </select>
+            </label>
+            <label
+              class="css-12e7qyv"
+            >
+              <span
+                class="css-fxi74e"
+              >
+                Статус задачи
+                 *
+              </span>
+              <select
+                class="css-d17r1a"
+                name="status"
+              >
+                <option
+                  value=""
+                >
+                  Выберите статус задачи
+                </option>
+                <option
+                  value="1"
+                >
+                  todo
+                </option>
+                <option
+                  value="2"
+                >
+                  inprogress
+                </option>
+                <option
+                  value="3"
+                >
+                  testing
+                </option>
+                <option
+                  value="4"
+                >
+                  done
+                </option>
+              </select>
+            </label>
+            <label
+              class="css-12e7qyv"
+            >
+              <span
+                class="css-fxi74e"
+              >
+                Назначьте исполнителя
+              </span>
+              <input
+                class="css-d17r1a"
+                name="executor"
+                placeholder="Начните вводить имя/email участника..."
+                type="text"
+                value="testUser"
+              />
+            </label>
+          </div>
+          <div
+            class="css-i9ol1x"
+          >
+            <button
+              class="css-11jnjem"
+              type="submit"
+            >
+              Сохранить
+            </button>
+          </div>
+        </form>
+      </main>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`test Edit task check Edit project 1`] = `
+<div>
+  <div
+    class="css-1boxdi0"
+  >
+    <div
+      class="css-aoi44d"
+    >
+      <div
+        class="css-174g2o2"
+      >
+        <a
+          class="css-13lnaem"
+          href="/easy-project/dashboard"
+          title="Дашборд"
+        >
+          <div
+            class="css-1povu0j"
+          >
+            <div
+              class="css-4ucq2w"
+            >
+              <img
+                alt="Easy project logo"
+                src="test-file-stub"
+              />
+            </div>
+            <p
+              class="css-1vxbtp5"
+            >
+              <span>
+                easy
+              </span>
+              <span>
+                project
+              </span>
+            </p>
+          </div>
+        </a>
+        <nav
+          class="css-83k1q7"
+        >
+          <div
+            class="css-16uff1u"
+          >
+            <a
+              class="css-13xx20t"
+              href="/easy-project/dashboard"
+              title="Дашборд"
+            >
+              Дашборд
+            </a>
+            <div
+              class="css-rq7z01"
+            >
+              <img
+                alt="link separator"
+                src="test-file-stub"
+              />
+            </div>
+            <span
+              class="css-1c4ingb"
+            >
+              Редактировать проект - undefined
+            </span>
+          </div>
+          <div
+            class="css-16uff1u"
+          >
+            <button
+              class="css-1640pth"
+              title="language select"
+              value="ru"
+            >
+              <img
+                class="css-zlc08d"
+                src="test-file-stub"
+              />
+            </button>
+            <div
+              class="css-746kv5"
+            />
+            <a
+              class="css-13xx20t"
+              href="/easy-project/dashboard"
+              title="Выход"
+            >
+              Выход
+            </a>
+          </div>
+        </nav>
+      </div>
+    </div>
+    <div
+      class="css-14f5air"
+    >
+      <main
+        class="css-mx63p3"
+      >
+        <div
+          class="css-44i7do"
+        >
+          <div
+            class="css-3l4y0u"
+          />
+          <h1
+            class="css-1s264hv"
+          >
+            Новый проект
+          </h1>
+        </div>
+        <form
+          class="css-du6bgd"
+        >
+          <div
+            class="css-u98tgc"
+          >
+            <label
+              class="css-12e7qyv"
+            >
+              <span
+                class="css-fxi74e"
+              >
+                Имя проекта
+                 
+                *
+              </span>
+              <input
+                class="css-d17r1a"
+                name="title"
+                placeholder="Введите имя проекта..."
+                type="text"
+                value=""
+              />
+            </label>
+            <label
+              class="css-12e7qyv"
+            >
+              <span
+                class="css-fxi74e"
+              >
+                Шифр проекта
+                 
+                *
+              </span>
+              <input
+                class="css-d17r1a"
+                name="code"
+                placeholder="Введите шифр проекта..."
+                type="text"
+                value=""
+              />
+            </label>
+            <div
+              class="css-ahns2k"
+            >
+              <label
+                class="css-12e7qyv"
+              >
+                <span
+                  class="css-fxi74e"
+                >
+                  Участники проекта
+                </span>
+                <div
+                  class=" css-b62m3t-container"
+                >
+                  <span
+                    class="css-1f43avz-a11yText-A11yText"
+                    id="react-select-2-live-region"
+                  />
+                  <span
+                    aria-atomic="false"
+                    aria-live="polite"
+                    aria-relevant="additions text"
+                    class="css-1f43avz-a11yText-A11yText"
+                  />
+                  <div
+                    class=" css-1v1t21l-control"
+                  >
+                    <div
+                      class=" css-hdyif0-ValueContainer"
+                    >
+                      <div
+                        class=" css-14el2xx-placeholder"
+                        id="react-select-2-placeholder"
+                      >
+                        Начните вводить имя/email участника...
+                      </div>
+                      <input
+                        aria-autocomplete="list"
+                        aria-describedby="react-select-2-placeholder"
+                        aria-expanded="false"
+                        aria-haspopup="true"
+                        aria-readonly="true"
+                        class="css-mohuvp-dummyInput-DummyInput"
+                        id="react-select-2-input"
+                        inputmode="none"
+                        role="combobox"
+                        tabindex="0"
+                        value=""
+                      />
+                    </div>
+                    <div
+                      class=" css-1hb7zxy-IndicatorsContainer"
+                    >
+                      <span
+                        class=" css-43ykx9-indicatorSeparator"
+                      />
+                      <div
+                        aria-hidden="true"
+                        class=" css-tlfecz-indicatorContainer"
+                      >
+                        <span
+                          class="css-c3uc64"
+                        />
+                      </div>
+                    </div>
+                  </div>
+                  <div>
+                    <input
+                      name="members"
+                      type="hidden"
+                    />
+                  </div>
+                </div>
+              </label>
+              
+            </div>
+          </div>
+          <div
+            class="css-i9ol1x"
+          >
+            <button
+              class="css-11jnjem"
+              type="submit"
+            >
+              Сохранить
+            </button>
+          </div>
+        </form>
+      </main>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`test Edit task check New project 1`] = `
+<div>
+  <div
+    class="css-1boxdi0"
+  >
+    <div
+      class="css-aoi44d"
+    >
+      <div
+        class="css-174g2o2"
+      >
+        <a
+          class="css-13lnaem"
+          href="/easy-project/dashboard"
+          title="Дашборд"
+        >
+          <div
+            class="css-1povu0j"
+          >
+            <div
+              class="css-4ucq2w"
+            >
+              <img
+                alt="Easy project logo"
+                src="test-file-stub"
+              />
+            </div>
+            <p
+              class="css-1vxbtp5"
+            >
+              <span>
+                easy
+              </span>
+              <span>
+                project
+              </span>
+            </p>
+          </div>
+        </a>
+        <nav
+          class="css-83k1q7"
+        >
+          <div
+            class="css-16uff1u"
+          >
+            <a
+              class="css-13xx20t"
+              href="/easy-project/dashboard"
+              title="Дашборд"
+            >
+              Дашборд
+            </a>
+            <div
+              class="css-rq7z01"
+            >
+              <img
+                alt="link separator"
+                src="test-file-stub"
+              />
+            </div>
+            <span
+              class="css-1c4ingb"
+            >
+              Редактировать проект - undefined
+            </span>
+          </div>
+          <div
+            class="css-16uff1u"
+          >
+            <button
+              class="css-1640pth"
+              title="language select"
+              value="ru"
+            >
+              <img
+                class="css-zlc08d"
+                src="test-file-stub"
+              />
+            </button>
+            <div
+              class="css-746kv5"
+            />
+            <a
+              class="css-13xx20t"
+              href="/easy-project/dashboard"
+              title="Выход"
+            >
+              Выход
+            </a>
+          </div>
+        </nav>
+      </div>
+    </div>
+    <div
+      class="css-14f5air"
+    >
+      <main
+        class="css-mx63p3"
+      >
+        <div
+          class="css-44i7do"
+        >
+          <div
+            class="css-3l4y0u"
+          />
+          <h1
+            class="css-1s264hv"
+          >
+            Новый проект
+          </h1>
+        </div>
+        <form
+          class="css-du6bgd"
+        >
+          <div
+            class="css-u98tgc"
+          >
+            <label
+              class="css-12e7qyv"
+            >
+              <span
+                class="css-fxi74e"
+              >
+                Имя проекта
+                 
+                *
+              </span>
+              <input
+                class="css-d17r1a"
+                name="title"
+                placeholder="Введите имя проекта..."
+                type="text"
+                value=""
+              />
+            </label>
+            <label
+              class="css-12e7qyv"
+            >
+              <span
+                class="css-fxi74e"
+              >
+                Шифр проекта
+                 
+                *
+              </span>
+              <input
+                class="css-d17r1a"
+                name="code"
+                placeholder="Введите шифр проекта..."
+                type="text"
+                value=""
+              />
+            </label>
+            <div
+              class="css-ahns2k"
+            >
+              <label
+                class="css-12e7qyv"
+              >
+                <span
+                  class="css-fxi74e"
+                >
+                  Участники проекта
+                </span>
+                <div
+                  class=" css-b62m3t-container"
+                >
+                  <span
+                    class="css-1f43avz-a11yText-A11yText"
+                    id="react-select-3-live-region"
+                  />
+                  <span
+                    aria-atomic="false"
+                    aria-live="polite"
+                    aria-relevant="additions text"
+                    class="css-1f43avz-a11yText-A11yText"
+                  />
+                  <div
+                    class=" css-1v1t21l-control"
+                  >
+                    <div
+                      class=" css-hdyif0-ValueContainer"
+                    >
+                      <div
+                        class=" css-14el2xx-placeholder"
+                        id="react-select-3-placeholder"
+                      >
+                        Начните вводить имя/email участника...
+                      </div>
+                      <input
+                        aria-autocomplete="list"
+                        aria-describedby="react-select-3-placeholder"
+                        aria-expanded="false"
+                        aria-haspopup="true"
+                        aria-readonly="true"
+                        class="css-mohuvp-dummyInput-DummyInput"
+                        id="react-select-3-input"
+                        inputmode="none"
+                        role="combobox"
+                        tabindex="0"
+                        value=""
+                      />
+                    </div>
+                    <div
+                      class=" css-1hb7zxy-IndicatorsContainer"
+                    >
+                      <span
+                        class=" css-43ykx9-indicatorSeparator"
+                      />
+                      <div
+                        aria-hidden="true"
+                        class=" css-tlfecz-indicatorContainer"
+                      >
+                        <span
+                          class="css-c3uc64"
+                        />
+                      </div>
+                    </div>
+                  </div>
+                  <div>
+                    <input
+                      name="members"
+                      type="hidden"
+                    />
+                  </div>
+                </div>
+              </label>
+              
+            </div>
+          </div>
+          <div
+            class="css-i9ol1x"
+          >
+            <button
+              class="css-11jnjem"
+              type="submit"
+            >
+              Сохранить
+            </button>
+          </div>
+        </form>
+      </main>
+    </div>
+  </div>
+</div>
+`;

@@ -1,0 +1,51 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`confirmModal render 1`] = `
+<body>
+  <div>
+    <div
+      class="css-q7ennu"
+      id="overlay"
+    >
+      <div
+        class="css-fslfiw"
+      >
+        <div
+          class="css-9rseyg"
+        >
+          <button
+            class="css-4jvx38"
+          >
+            <img
+              alt="Закрыть"
+              src="test-file-stub"
+            />
+          </button>
+        </div>
+        <div
+          class="css-19jvvxe"
+        >
+          <p
+            class="css-ovqjzh"
+          />
+        </div>
+        <div
+          class="css-106mbhu"
+        >
+          <button
+            class="css-a5dza1"
+          >
+            Нет
+          </button>
+          <button
+            class="css-a5dza1"
+            data-testid="button-delete"
+          >
+            Да
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+`;

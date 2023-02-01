@@ -1,0 +1,558 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Testing Registration Component COMMON check render 1`] = `
+<div>
+  <div
+    class="css-1wcmp47"
+  >
+    <section
+      class="css-1prn45"
+    >
+      <button
+        class="css-1640pth"
+        title="language select"
+        value="ru"
+      >
+        <img
+          class="css-zlc08d"
+          src="test-file-stub"
+        />
+      </button>
+    </section>
+    <div
+      class="css-1sw1t6e"
+    >
+      <p
+        class="css-a8wdq9"
+      >
+        Создай свой аккаунт
+      </p>
+      <form
+        data-testid="signup-form"
+        novalidate=""
+      >
+        <fieldset
+          class="css-1nvs5py"
+        >
+          <div
+            class="css-ahns2k"
+          >
+            <label
+              class="css-12e7qyv"
+            >
+              <span
+                class="css-fxi74e"
+              >
+                Логин
+                *
+              </span>
+              <input
+                class="css-d17r1a"
+                name="login"
+                placeholder="Введите логин..."
+                required=""
+                type="text"
+                value=""
+              />
+            </label>
+          </div>
+          <div
+            class="css-ahns2k"
+          >
+            <label
+              class="css-12e7qyv"
+            >
+              <span
+                class="css-fxi74e"
+              >
+                Фамилия Имя
+                *
+              </span>
+              <input
+                class="css-d17r1a"
+                name="name_secondname"
+                placeholder="Фамилия Имя..."
+                required=""
+                type="Name_SecondName"
+                value=""
+              />
+            </label>
+          </div>
+          <div
+            class="css-ahns2k"
+          >
+            <label
+              class="css-12e7qyv"
+            >
+              <span
+                class="css-fxi74e"
+              >
+                Почта
+                *
+              </span>
+              <input
+                class="css-d17r1a"
+                name="email"
+                placeholder="Введите почту..."
+                required=""
+                type="email"
+                value=""
+              />
+            </label>
+          </div>
+          <div
+            class="css-ahns2k"
+          >
+            <label
+              class="css-12e7qyv"
+            >
+              <span
+                class="css-fxi74e"
+              >
+                Пароль
+                *
+              </span>
+              <input
+                autocomplete="off"
+                class="css-d17r1a"
+                name="password"
+                placeholder="Введите пароль..."
+                required=""
+                type="password"
+                value=""
+              />
+            </label>
+          </div>
+        </fieldset>
+        <div
+          class="css-jtawwa"
+        >
+          <p>
+            Уже есть аккаунт?
+            <a
+              class="css-xyki2o"
+              href="/easy-project/sign-in"
+              title="Войти если есть аккаунт"
+            >
+               Войти
+            </a>
+          </p>
+        </div>
+        <div
+          class="css-889chh"
+        >
+          <button
+            class="css-ddydcb"
+            type="submit"
+          >
+            Присоединиться
+          </button>
+        </div>
+      </form>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Testing Registration Component COMMON submit empty form 1`] = `
+<form
+  data-testid="signup-form"
+  novalidate=""
+>
+  <fieldset
+    class="css-1nvs5py"
+  >
+    <div
+      class="css-ahns2k"
+    >
+      <label
+        class="css-12e7qyv"
+      >
+        <span
+          class="css-fxi74e"
+        >
+          Логин
+          *
+        </span>
+        <input
+          class="css-d17r1a"
+          name="login"
+          placeholder="Введите логин..."
+          required=""
+          type="text"
+          value=""
+        />
+      </label>
+      <p
+        class="css-11un70f"
+      >
+        Поле не должно быть пустым
+      </p>
+    </div>
+    <div
+      class="css-ahns2k"
+    >
+      <label
+        class="css-12e7qyv"
+      >
+        <span
+          class="css-fxi74e"
+        >
+          Фамилия Имя
+          *
+        </span>
+        <input
+          class="css-d17r1a"
+          name="name_secondname"
+          placeholder="Фамилия Имя..."
+          required=""
+          type="Name_SecondName"
+          value=""
+        />
+      </label>
+      <p
+        class="css-11un70f"
+      >
+        Поле не должно быть пустым
+      </p>
+    </div>
+    <div
+      class="css-ahns2k"
+    >
+      <label
+        class="css-12e7qyv"
+      >
+        <span
+          class="css-fxi74e"
+        >
+          Почта
+          *
+        </span>
+        <input
+          class="css-d17r1a"
+          name="email"
+          placeholder="Введите почту..."
+          required=""
+          type="email"
+          value=""
+        />
+      </label>
+      <p
+        class="css-11un70f"
+      >
+        Поле не должно быть пустым
+      </p>
+    </div>
+    <div
+      class="css-ahns2k"
+    >
+      <label
+        class="css-12e7qyv"
+      >
+        <span
+          class="css-fxi74e"
+        >
+          Пароль
+          *
+        </span>
+        <input
+          autocomplete="off"
+          class="css-d17r1a"
+          name="password"
+          placeholder="Введите пароль..."
+          required=""
+          type="password"
+          value=""
+        />
+      </label>
+      <p
+        class="css-11un70f"
+      >
+        Поле не должно быть пустым
+      </p>
+    </div>
+  </fieldset>
+  <div
+    class="css-jtawwa"
+  >
+    <p>
+      Уже есть аккаунт?
+      <a
+        class="css-xyki2o"
+        href="/easy-project/sign-in"
+        title="Войти если есть аккаунт"
+      >
+         Войти
+      </a>
+    </p>
+  </div>
+  <div
+    class="css-889chh"
+  >
+    <button
+      class="css-ddydcb"
+      type="submit"
+    >
+      Присоединиться
+    </button>
+  </div>
+</form>
+`;
+
+exports[`Testing Registration Component EXIST EMAIL submit exist email 1`] = `
+<form
+  data-testid="signup-form"
+  novalidate=""
+>
+  <fieldset
+    class="css-1nvs5py"
+  >
+    <div
+      class="css-ahns2k"
+    >
+      <label
+        class="css-12e7qyv"
+      >
+        <span
+          class="css-fxi74e"
+        >
+          Логин
+          *
+        </span>
+        <input
+          class="css-d17r1a"
+          name="login"
+          placeholder="Введите логин..."
+          required=""
+          type="text"
+          value="some login"
+        />
+      </label>
+      
+    </div>
+    <div
+      class="css-ahns2k"
+    >
+      <label
+        class="css-12e7qyv"
+      >
+        <span
+          class="css-fxi74e"
+        >
+          Фамилия Имя
+          *
+        </span>
+        <input
+          class="css-d17r1a"
+          name="name_secondname"
+          placeholder="Фамилия Имя..."
+          required=""
+          type="Name_SecondName"
+          value="some fio"
+        />
+      </label>
+      
+    </div>
+    <div
+      class="css-ahns2k"
+    >
+      <label
+        class="css-12e7qyv"
+      >
+        <span
+          class="css-fxi74e"
+        >
+          Почта
+          *
+        </span>
+        <input
+          class="css-d17r1a"
+          name="email"
+          placeholder="Введите почту..."
+          required=""
+          type="email"
+          value="alex_vovkin@mail.ru"
+        />
+      </label>
+      
+    </div>
+    <div
+      class="css-ahns2k"
+    >
+      <label
+        class="css-12e7qyv"
+      >
+        <span
+          class="css-fxi74e"
+        >
+          Пароль
+          *
+        </span>
+        <input
+          autocomplete="off"
+          class="css-d17r1a"
+          name="password"
+          placeholder="Введите пароль..."
+          required=""
+          type="password"
+          value="some password"
+        />
+      </label>
+      
+    </div>
+  </fieldset>
+  <div
+    class="css-jtawwa"
+  >
+    <p>
+      Уже есть аккаунт?
+      <a
+        class="css-xyki2o"
+        href="/easy-project/sign-in"
+        title="Войти если есть аккаунт"
+      >
+         Войти
+      </a>
+    </p>
+  </div>
+  <div
+    class="css-889chh"
+  >
+    <button
+      class="css-ddydcb"
+      type="submit"
+    >
+      Присоединиться
+    </button>
+  </div>
+</form>
+`;
+
+exports[`Testing Registration Component EXIST LOGIN submit exist login 1`] = `
+<form
+  data-testid="signup-form"
+  novalidate=""
+>
+  <fieldset
+    class="css-1nvs5py"
+  >
+    <div
+      class="css-ahns2k"
+    >
+      <label
+        class="css-12e7qyv"
+      >
+        <span
+          class="css-fxi74e"
+        >
+          Логин
+          *
+        </span>
+        <input
+          class="css-d17r1a"
+          name="login"
+          placeholder="Введите логин..."
+          required=""
+          type="text"
+          value="VolodinAS"
+        />
+      </label>
+      
+    </div>
+    <div
+      class="css-ahns2k"
+    >
+      <label
+        class="css-12e7qyv"
+      >
+        <span
+          class="css-fxi74e"
+        >
+          Фамилия Имя
+          *
+        </span>
+        <input
+          class="css-d17r1a"
+          name="name_secondname"
+          placeholder="Фамилия Имя..."
+          required=""
+          type="Name_SecondName"
+          value="some fio"
+        />
+      </label>
+      
+    </div>
+    <div
+      class="css-ahns2k"
+    >
+      <label
+        class="css-12e7qyv"
+      >
+        <span
+          class="css-fxi74e"
+        >
+          Почта
+          *
+        </span>
+        <input
+          class="css-d17r1a"
+          name="email"
+          placeholder="Введите почту..."
+          required=""
+          type="email"
+          value="testing@test.test"
+        />
+      </label>
+      
+    </div>
+    <div
+      class="css-ahns2k"
+    >
+      <label
+        class="css-12e7qyv"
+      >
+        <span
+          class="css-fxi74e"
+        >
+          Пароль
+          *
+        </span>
+        <input
+          autocomplete="off"
+          class="css-d17r1a"
+          name="password"
+          placeholder="Введите пароль..."
+          required=""
+          type="password"
+          value="some password"
+        />
+      </label>
+      
+    </div>
+  </fieldset>
+  <div
+    class="css-jtawwa"
+  >
+    <p>
+      Уже есть аккаунт?
+      <a
+        class="css-xyki2o"
+        href="/easy-project/sign-in"
+        title="Войти если есть аккаунт"
+      >
+         Войти
+      </a>
+    </p>
+  </div>
+  <div
+    class="css-889chh"
+  >
+    <button
+      class="css-ddydcb"
+      type="submit"
+    >
+      Присоединиться
+    </button>
+  </div>
+</form>
+`;

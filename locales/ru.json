@@ -1,0 +1,129 @@
+{
+    "easy-project.signin.titleSignIn": "Войти в свой аккаунт",
+    "easy-project.signin.submitText": "Войти",
+    "easy-project.signin.labelTextEmail": "Почта",
+    "easy-project.signin.labelPlaceholderEmail": "Введите почту...",
+    "easy-project.signin.labelTextPassword": "Пароль",
+    "easy-project.signin.labelPlaceholderPassword": "Введите пароль...",
+    "easy-project.signin.error": "Почта или пароль введены неправильно",
+    "easy-project.signin.error-required": "Поле обязательно для заполнения",
+    "easy-project.signin.error-email": "Некорректный Email",
+    "easy-project.signin.registerText": "Нет аккаунта?",
+    "easy-project.signin.registerTextLink": "Зарегистрироваться",
+    "easy-project.signin.forgotPassword": "Забыли пароль?",
+
+    "easy-project.signup.submitTextLogin": "Логин",
+    "easy-project.signup.labelTextName": "Фамилия Имя",
+    "easy-project.signup.title": "Создай свой аккаунт",
+    "easy-project.signup.labelPlaceholderLogin": "Введите логин...",
+    "easy-project.signup.labelPlaceholderName": "Фамилия Имя...",
+    "easy-project.signup.submitText": "Присоединиться",
+    "easy-project.signup.signin.text": "Уже есть аккаунт?",
+    "easy-project.signup.signin.link-text": " Войти",
+
+    "easy-project.signup.error-repeat-email": "Пользователь с такой почтой уже зарегистрирован",
+    "easy-project.signup.error-repeat-login": "Пользователь с таким логином уже зарегистрирован",
+
+    "easy-project.landing.buttons.startProject.product": "Создать первый проект",
+    "easy-project.landing.buttons.startProject.intro": "Начать управление проектами",
+    "easy-project.landing.buttons.startProject.uniq": "Приступить к работе",
+
+    "easy-project.landing.header.product": "О продукте",
+    "easy-project.landing.header.intro": "Вступление",
+    "easy-project.landing.header.benefits": "Преимущества",
+    "easy-project.landing.header.uniq": "Уникальность",
+
+    "easy-project.landing.product.mainText": "Программное обеспечение для комплексного управления работой",
+    "easy-project.landing.product.subText": "Программное обеспечение Easy Project предназначено для управления работой, оптимизировать проекты, упростить расчет цен, автоматизировать выставление счетов и оптимизировать менеджмент проектов.",
+
+    "easy-project.landing.intro.mainText": "Готовы изменить то, как вы работаете?",
+    "easy-project.landing.intro.subText": "Вам не нужны десятки приложений, чтобы добиться цели. Узнайте, как переход на Easy Project позволит вам управлять всеми аспектами вашего бизнеса.",
+
+    "easy-project.landing.benefits.mainText": "Преимущества Easy Project",
+
+    "easy-project.landing.uniq.mainText": "Что делает Easy Project уникальным?",
+    "easy-project.landing.uniq.subText": "Тут красочное общее описание проекта",
+
+    "easy-project.landing.footer.rights": "Все права защищены",
+
+    "easy-project.dashboard.quitBtn": "Выход",
+    "easy-project.dashboard.saveBtn": "Сохранить",
+    "easy-project.dashboard.newProjectBtn": "Новый проект",
+    "easy-project.dashboard.all.pageName": "Дашборд",
+    "easy-project.dashboard.newProject.pageName": "Новый проект",
+    "easy-project.dashboard.newProject.form.field.title": "Имя проекта",
+    "easy-project.dashboard.newProject.form.error.empty": "Поле не должно быть пустым",
+    "easy-project.dashboard.newProject.form.placeholder.title": "Введите имя проекта...",
+    "easy-project.dashboard.newProject.form.field.code": "Шифр проекта",
+    "easy-project.dashboard.newProject.form.field.members": "Участники проекта",
+    "easy-project.dashboard.newProject.form.placeholder.code": "Введите шифр проекта...",
+    "easy-project.dashboard.newProject.form.placeholder.members": "Начните вводить имя/email участника...",
+    "easy-project.dashboard.editProject.pageName": "Редактировать проект - {{projectName}}",
+
+    "easy-project.dashboard.projectList.buttonTasks": "Задачи",
+    "easy-project.dashboard.projectList.buttonEdit": "Редактировать",
+    "easy-project.dashboard.projectList.buttonDelete": "Удалить",
+    "easy-project.dashboard.projectList.buttonAddTask": "Добавить задачу",
+
+    "easy-project.dashboard.project.accessDenied": "У Вас нет доступа к данному проекту или проекта не существует!",
+    "easy-project.dashboard.project.empty": "У Вас еще нет активных проектов! Нажмите «Новый проект» для создания проекта...",
+    "easy-project.dashboard.project.title": "{{title}} ({{amount}})",
+    "easy-project.dashboard.project.tasks.breadcrumbs": "Задачи проекта \"{{projectName}}\"",
+    "easy-project.dashboard.project.task.breadcrumbs": "Задача \"{{projectCode}}-{{taskCode}}\"",
+    "easy-project.dashboard.project.taskEdit.breadcrumbs": "Редактирование задачи \"{{projectCode}}-{{taskCode}}\"",
+
+    "easy-project.dashboard.project.newTask.breadcrumbs": "Новая задача",
+
+    "easy-project.dashboard.project.taskEdit.form.title.field": "Название задачи",
+    "easy-project.dashboard.project.taskEdit.form.title.placeholder": "Введите название задачи...",
+
+    "easy-project.dashboard.project.taskEdit.form.decriprion.field": "Описание задачи",
+    "easy-project.dashboard.project.taskEdit.form.decriprion.placeholder": "Введите описание задачи...",
+
+    "easy-project.dashboard.project.taskEdit.form.type.field": "Тип задачи",
+    "easy-project.dashboard.project.taskEdit.form.type.placeholder": "Выберите тип задачи",
+
+    "easy-project.dashboard.project.taskEdit.form.status.field": "Статус задачи",
+    "easy-project.dashboard.project.taskEdit.form.status.placeholder": "Выберите статус задачи",
+
+    "easy-project.dashboard.project.taskEdit.form.executor.field": "Назначьте исполнителя",
+    "easy-project.dashboard.project.taskEdit.form.executor.placeholder": "Начните вводить имя/email участника...",
+
+    "easy-project.dashboard.project.task.header": "Задача {{projectCode}}-{{taskId}}",
+    "easy-project.dashboard.project.task.buttonEdit": "Редактировать",
+    "easy-project.dashboard.project.task.created": "Создана:",
+    "easy-project.dashboard.project.task.unknown.executor": "не назначен",
+    "easy-project.dashboard.project.task.unknown.author": "не указан",
+
+    "easy-project.dashboard.project.info.author": "Автор: {{projectAuthor}}",
+    "easy-project.dashboard.project.info.created": "Создан: {{projectCreated}}",
+    "easy-project.dashboard.project.info.changed": "Изменен: {{projectChanged}}",
+
+    "easy-project.dashboard.project.task.info.status": "Статус:",
+    "easy-project.dashboard.project.task.info.author": "Автор:",
+    "easy-project.dashboard.project.task.info.changed": "Обновлена:",
+    "easy-project.dashboard.project.task.info.executor": "Исполнитель:",
+    "easy-project.dashboard.project.task.info.description": "Описание:",
+
+    "easy-project.overlay.buttonClose": "Закрыть",
+    "easy-project.overlay.confirm": "Да",
+    "easy-project.overlay.cancel": "Нет",
+
+    "easy-project.overlay.confirm.delete.project": "Вы действительно хотите удалить данный проект?",
+    "easy-project.overlay.confirm.delete.task": "Вы действительно хотите удалить задачу «{{taskTitle}}»?",
+    
+    "easy-project.error.common": "Возникла непредвиденная ошибка на сервере!",
+    "easy-project.error.notfound": "Страница не найдена...",
+    "easy-project.error.newproject": "Ошибка при создании проекта...",
+    "easy-project.error.saveproject": "Ошибка при сохранении проекта...",
+
+    "easy-project.success.newproject": "Проект успешно создан!",
+    "easy-project.success.saveproject": "Проект успешно сохранён!",
+
+    "easy-project.header.title.landing": "Добро пожаловать!",
+    "easy-project.header.title.signin": "Авторизация",
+    "easy-project.header.title.signup": "Регистрация",
+    "easy-project.header.title.dashboard": "Дашборд",
+
+    "": ""
+}

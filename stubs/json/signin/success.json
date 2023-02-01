@@ -1,0 +1,12 @@
+{
+    "success": true,
+    "data": {
+        "token": "tokensdasdas231rqdfsf4345",
+        "user": {
+            "id": "iseridcvrewefwr231323123123d",
+            "login": "testUser",
+            "email": "test@test.ru",
+            "fio": "Lastname Firstname"
+        }
+    }
+}
